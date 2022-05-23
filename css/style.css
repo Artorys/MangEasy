@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;900&display=swap');
+
+body
+
+{
+    box-sizing: border-box;
+    background: rgb(21,21,21);
+    font-family: "Inter";
+    width: 100vw;
+    height: 100vh;
+}
+header
+{   
+    width: 100%;
+    background: rgb(42,128,103);
+    background: linear-gradient(30deg, rgba(70,139,110) 0%, rgba(44,115,85) 30%, rgb(11,71,72) 100%); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 3px 4px #0f6567;
+}
+nav
+{
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+.div-logo
+{
+    margin-left:4rem;
+    width: 65%;
+    color: black;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+.logo   
+{
+    width: 80px;
+    height: 80px;
+}
+.h1-logo
+{
+    font-size: 28px;
+    font-weight: 900;
+}
+.ul-nav
+{
+    margin-right: 1rem;
+    width: 25%;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+}
+a
+{
+    transition: 0.5s;
+    color: black;
+}
+a:hover
+{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.page
+{
+    gap: 70px;
+    display: flex;
+}
+.main-vitrine
+{
+    margin-left: 1rem;
+    width: 65%;
+}
+.vitrine
+{
+    color: black;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap;
+    gap: 15px;
+}
+.card
+{
+    padding:20px;
+    border-radius: 4px;
+    background-color:rgb(178,187,194);
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    margin-left: 40px;
+}
+.box-card
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.box-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.card-img
+{
+    width: 100px;
+    height:150px;
+}
+.categoria
+{
+    border-radius: 5px;
+    padding:6px;
+    background-color: #2c7355;
+}
+.preco
+{
+    color: #002d2d;
+}
+.add
+{
+    padding:10px ;
+    color: rgb(0, 55, 37);
+    transition: 2s;
+}
+.add:hover
+{
+    background-color: rgb(0, 187, 124);
+    cursor: pointer;
+    text-decoration: underline;
+}
+aside
+{   
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    margin-top: 30px;
+}
+.allresult
+{
+    width: 100%;
+}
+.pesquisa
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pesquisar:hover
+{
+    background-color: #04d569;
+    cursor: pointer;
+}
+.section-compras
+{
+    margin-top: 2rem;
+}
+input
+{
+    width: 70%;
+    padding: 4px;
+    background-color: rgb(178,187,194);
+    border-radius: 10px;
+    color: black
+}
+label
+{
+    text-align: center;
+    width: 30%;
+    border-radius: 4px;
+    padding: 6px; 
+    background-color: #2c7355;   
+}
+.carrinho
+{
+    background-color: rgba(106,54,49);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrinho-on
+{
+    height: 50vh;
+    overflow-y: auto;
+    background-color:rgb(178,187,194) ;
+}
+.vitrine-compras
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.card-compras
+{
+    display: flex;
+}
+.compras-box
+{
+    padding: 10px;
+    width: 100px;
+}
+.compras-img
+{
+    width: 100px;
+}
+.compras-info
+{
+    color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.remove
+{
+    color:white;
+    background-color:#721d14;
+    width: 5rem;
+    height:2rem;
+    transition: 1s;
+}
+.remove:hover
+{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+}
+.resultado
+{
+    padding:10px ;
+    background-color:#6a3631;
+}
+.quantidade
+{
+    padding:10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.total
+{
+    padding:10px ;
+    display: flex;
+    justify-content:space-between;
+}
+.on
+{
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.on-h2
+{
+    font-size:1.5rem ;
+}
+.some
+{
+    display: none;
+}
