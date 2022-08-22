@@ -1,5 +1,7 @@
 # Entrega Construindo um E-commerce - parte 1
 
+#Pages : https://artorys.github.io/MangEasy/
+
 ## Introdução
 
 Nesta entrega construiremos o layout de um e-commerce. Seguiremos um
