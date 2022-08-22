@@ -1,6 +1,6 @@
 # Entrega Construindo um E-commerce - parte 1
 
-#Pages : https://artorys.github.io/MangEasy/
+# Pages : https://artorys.github.io/MangEasy/
 
 ## Introdução
 
